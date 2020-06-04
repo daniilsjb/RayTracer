@@ -347,7 +347,7 @@ int main()
     const float aspectRatio = (float)screenWidth / (float)screenHeight;
     Vector3* colors = new Vector3[screenWidth * screenHeight];
 
-    //Defube camera
+    //Define camera
     const Vector3 cameraOrigin = { 0.0f, 0.0f, -1.0f };
     const float FoV = 3.142592f / 2.0f;
     const int maxDepth = 4;
