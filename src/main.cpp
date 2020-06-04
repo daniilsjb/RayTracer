@@ -106,7 +106,7 @@ Vector3 Refract(const Vector3& direction, const Vector3& normal, const float ref
 
     Vector3 n = normal;
 
-    //If ray is inside the object, then the outer and inner medium need to be swapped
+    //If ray is inside the object, then the outer and inner mediums need to be swapped
     if (c < 0.0f)
     {
         c = -c;
