@@ -349,7 +349,7 @@ int main()
 
     //Define camera
     const Vector3 cameraOrigin = { 0.0f, 0.0f, -1.0f };
-    const float FoV = 3.142592f / 2.0f;
+    const float FoV = 3.1415926535f / 2.0f;
     const int maxDepth = 4;
 
     //Taken from here: http://devernay.free.fr/cours/opengl/materials.html
